@@ -108,4 +108,17 @@ nav ul li a{
 nav ul li a:hover{
 	color: orange;
 }
+div.intro{
+	width:970px;
+	margin:15px;
+}
+
+div.intro div.introimage {
+	width:970px;
+}
+div.intro div.introtext{
+	margin-top:15px;
+	width:970px;
+}
+
 
