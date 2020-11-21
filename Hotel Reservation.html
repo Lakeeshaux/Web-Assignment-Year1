@@ -24,3 +24,17 @@
 <div style="padding-bottom: 18px;">Departure date<span style="color: red;"> *</span><br/>
 <input type="text" id="data_7" name="data_7" style="max-width : 250px;" class="form-control"/>
 </div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/pikaday/1.4.0/pikaday.min.js" type="text/javascript"></script>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/pikaday/1.4.0/css/pikaday.min.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript">new Pikaday({ field: document.getElementById('data_7') });</script>
+<div style="padding-bottom: 18px;">Number of adults<span style="color: red;"> *</span><br/>
+<input type="number" id="data_8" name="data_8" style="max-width : 250px;" class="form-control"/>
+</div>
+<div style="padding-bottom: 18px;">Number of children<br/>
+<input type="number" id="data_9" name="data_9" style="max-width : 250px;" class="form-control"/>
+</div>
+<div style="padding-bottom: 18px;">Questions / Comments<br/>
+<textarea id="data_10" false name="data_10" style="max-width : 450px;" rows="6" class="form-control"></textarea>
+</div>
+<div style="padding-bottom: 18px;"><input name="skip_Submit" value="Submit" type="submit"/></div>
+<div>
