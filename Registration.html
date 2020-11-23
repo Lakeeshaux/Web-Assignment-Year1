@@ -1,44 +1,75 @@
+<!doctype html>
 <html>
+
 <head>
-	<title>Registration</title>
+	<title>LOG IN</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
 </head>
 <body>
- <div class="subpage no-padding-bottom">
-      
-                <div class="container">
-                    
-                    <div class="register-page-top">
-                    	<h2>Sea Side Park Hotel - Login </h2>
-                    </div>   
-                </div>
-                
-                <div class="register">
-                    <div class="container">
-<form>
-<div class="row">
-    <div class="col-5 text-right">
-	<p>User Name:    
-	<input type="text" name="uname"></p>
-    </div>
+<!--css for popup modal-->
+<style>
 
-<div class="row">
-    <div class="col-5 text-right">
-	<p>Password:    
-	<input type="text" name="pwd"></p>
-    </div>
 
-<div class="row">
-                                <div class="col-5">&nbsp;</div>
-                                <div class="col-7">
-                                    <div class="row">
-                                        <div class="col-4">
-						<input type="submit" value="LOGIN" class="btn" />
-                                            </a>
-                                        </div>
-                                        
-                                    </div>
-                                </div>
-                            </div>
+
+.inner1{
+	
+	border: solid blue;
+	background-image:url("https://lh3.googleusercontent.com/proxy/pO1s5gmbJwva0HKAAO1nPQ2yJF7N-NnplOqDafvzAxAn4pZpQ6ioGlXtMR-WsWsqgkOc3zbvR8ct4MyPutPzchMJEIWpA4I6QqW6JwpNICoY9wpcZBgBibTmjBDIgZdlSGediRLc");
+    width:1335px;
+	height:630px;
+	background-size:cover;
+	
+}
+.inner2{
+	border:5px solid black;
+	width:400px;
+	height:300px;
+    background-image:url("https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/setai-kh-penthouseb-pool-1566480093.jpg");
+    
+	background-color:white;
+	margin-left:500px;
+	margin-top:200px;
+}   
+
+
+  </style>
+    
+ 
+    
+
+
+<div class="inner1"  >
+<div class="inner2" >
+<center style="color:#0d1a26"><h1>LOG IN <h1>
+<form name="form1">
+<br>
+<table>
+<tr>
+<th align="left" ><font size=5>Email Address</font></th>
+<td><input type="text" name="email" placeholder="Email Address"></td>
+</tr>
+<tr>
+<th align="left"><font size=5>Password</font></th>
+<td><input type="password" name="pass" placeholder="Password"></td>
+</tr>
+<tr> 
+<td></td>
+<td align="right"><font size=3><a href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwjAx5qU5_bsAhUGWCsKHShlCrgQFjAAegQICRAD&url=https%3A%2F%2Faccounts.google.com%2Fsignin%2Frecovery&usg=AOvVaw3rq0H54nerVO4H25exENmJ">
+    forgot password?</a></font>
+</td>
+</tr>
+<tr>
+<td colspan=2><font size=4><input type="checkbox" name="r"> Remember me</font></td>
+</tr>
+</table>
+<br>
+<button type="submit" onclick="validate();">LOG IN</button>
+<button type="reset" >Cancel</button><br>
+<button align="right" ><a href="registration.html">Register</a></button>
+
 </form>
+    </h1></h1></center></div></div>
+<script type="text/javascript" src="1.js"></script> 
 </body>
 </html>
