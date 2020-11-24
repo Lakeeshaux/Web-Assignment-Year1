@@ -1,7 +1,26 @@
-﻿body
+body
 {
 }
+.wrapper{
+    width:1000px;
+    margin:0 auto;
+}
+.main_heading{
+    text-decoration:underline;
+    text-decoration-color:#000dff;
+}
+.about{
+    width:1000px;
+    margin-bottom:100px;
+}
+.about_us_text {
+    width: 50%;
+}
+.about_text {
+    margin-right:50px;
+}
 .pic_container {
+    
     position: relative;
     width: 50%;
     float:right;
@@ -39,4 +58,22 @@
     color: white;
     font-size: 24px;
     padding: 16px 32px;
+}
+
+a{
+    text-decoration: none;
+}
+
+footer {
+    width: 1000px;
+    height: 200px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    float: left;
+}
+div.footcol{
+    width:477.5px;
+    float:left;
+    margin-left:15px;
+    border-top:1px solid #0094ff;
 }
