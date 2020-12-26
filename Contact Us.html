@@ -1,69 +1,30 @@
+<!DOCTYPE html>
 <html>
 <head>
-	<title></title>
+	<title>Contac Us</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-<h1>Contact Name Here</h1>
-<div class="section">
-  <label for="guestname" class="field-label">Please Enter Your Name</label>
-  <label for="guestname" class="field prepend-icon">
-    <input type="text" name="guestname" id="guestname" class="gui-input" required="" placeholder="John Doe/Jane Doe">
-    <span class="field-icon"><i class="fa fa-user"></i></span>  
-  </label>
+<div class="contact-title">
+	<form id="contact-form" method="post" action="contact-form-handler.php">
+	<h1>Welcome to the Sea Side South Park</h1>
+	<h2>We are always ready to serve you!</h2>
+
 </div>
-	<div class="frm-row">
-  <div class="section colm colm6">
-    <label for="guestemail" class="field-label">Email Address</label>
-    <label for="guestemail" class="field prepend-icon">
-      <input type="email" name="guestemail" id="guestemail" class="gui-input" required="" placeholder="john@something.com">
-      <span class="field-icon"><i class="fa fa-envelope"></i></span>  
-    </label>
-  </div>
-		<div class="section colm colm6">
-    <label for="guestelephone" class="field-label">Telephone / Mobile</label>
-    <label for="guestelephone" class="field prepend-icon">
-      <input type="text" name="guestelephone" id="guestelephone" class="gui-input" required="" placeholder="Telephone / Moble Number">
-      <span class="field-icon"><i class="fa fa-phone-square"></i></span>  
-    </label>
-  </div>
-		<div class="frm-row">
-  <div class="section colm colm6">
-    <label for="adults" class="field-label">Number of Adults</label>
-    <label for="adults" class="field prepend-icon">
-      <input type="number" id="adults" name="adults" class="gui-input" required="" placeholder="Number of adults">
-      <span class="field-icon"><i class="fa fa-users"></i></span>  
-    </label>
-  </div>
-			<div class="frm-row">
-  <div class="section colm colm6">
-    <label for="checkin" class="field-label">Check-in Date</label>
-    <label for="checkin" class="field prepend-icon">
-      <input type="text" id="checkin" name="checkin" class="gui-input" required="" placeholder="mm/dd/yyyy">
-      <span class="field-icon"><i class="fa fa-calendar"></i></span>  
-    </label>
-  </div>
-   
-  <div class="section colm colm6">
-    <label for="checkout" class="field-label">Check-out Date</label>
-    <label for="checkout" class="field prepend-icon">
-      <input type="text" id="checkout" name="checkout" class="gui-input" required="" placeholder="mm/dd/yyyy">
-      <span class="field-icon"><i class="fa fa-calendar"></i></span>  
-    </label>
-  </div>
-</div>
-			<div class="section">
-  <label for="comment" class="field-label">Anything else we should know about?</label>
-  <label for="comment" class="field prepend-icon">
-    <textarea class="gui-textarea" id="comment" name="comment" placeholder="Let us know about any special accommodation needs"></textarea>
-    <span class="field-icon"><i class="fa fa-comments"></i></span>
-    <span class="input-hint"> 
-      <strong>Please:</strong> Be as descriptive as possible
-    </span>   
-  </label>
-</div>
-</body>
-</html>
-			
+<div class="contact-form">
+	<form id="contact-form"  method="post" actio="">
+		<input name="name" type="text" class="form-control" placeholder="Your Name" required>
+		<br>
+        <input name="e-mail" type="e-mail" class="form-control" placeholder="Your E-mail" required>
+		<br>
+		<textarea name="message" class="form-control" placeholder="Message" row="4"></textarea><br>
+		<input type="submit" class="form-control submit" value="SEND MESSAGE">
+
+	</form>
+
+
+
+
 
 </body>
 </html>
